@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #191b24;
+    font-family: "Roboto";
+}
+
+nav {
+    width: 100%;
+}
+
+ul {
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-size: 3.5vh;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 3%;
+}
+
+a {
+    text-decoration: none;
+    color: #5b648b;
+}
+
+a:hover {
+    color: #f1509b;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 2vw;
+}
+
+nav {
+    display: inline-block;
+    color: #5b648b;
+    font-size: 25px;
+    background-color: #191b24;
+
+}
+
+section {
+    margin: 5% 10%;
+    display: flex;
+}
+
+.main {
+    width: 50%;
+}
+
+h1 {
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 65px;
+    color: #f1509b;
+}
+
+h2 {
+    font-size: 35   px;
+    color: #f1509b;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+img {
+    width: 310px;
+}
+
+.merch {
+    margin: 5% 10%;
+}
+
+.buy {
+    margin-left: 50%;
+}
+
+button {
+    border: none;
+    background: #f1509b;
+    padding: 1rem 2rem;
+    color: #eee;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.col {
+    flex: 1 ;
+    margin-top: 10px;
+    margin-inline: 1em;
+}
